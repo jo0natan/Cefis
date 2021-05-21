@@ -1,6 +1,7 @@
 var app = angular.module("ui.bootstrap.Cefis", ['ngAnimate', 'ngSanitize', 'ui.bootstrap']);
 app.controller('CarouselCefis', function($scope, $http) {
-    e.myInterval = 5000;
+   
+    $scope.myInterval = 5000;
     $scope.noWrapSlides = false;
     $scope.active = 0;
     var slides = $scope.slides = [];
