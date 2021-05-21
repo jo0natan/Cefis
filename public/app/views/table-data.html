@@ -1,0 +1,22 @@
+<h2>Monkeys</h2>
+
+<table class="table table-hover table-striped table-bordered">
+    <thead>
+        <tr>
+            <td>Nombre</td>
+            <td>Nombre de usuario</td>
+            <td>Email</td>
+        </tr>
+    </thead>
+    <tbody>
+
+        <tr ng-repeat="monkey in monkeys">
+            <td>{{ monkey.name}}</td>
+            <td>${{ monkey.username }}</td>
+            <td>${{ monkey.email }}</td>
+        </tr>
+
+    </tbody>
+</table>
+
+<pagination total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged(currentPage)"></pagination>

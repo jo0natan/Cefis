@@ -1,0 +1,23 @@
+{
+    "images": [
+        {
+            "thumbnail": "images/bird-thumb.jpg",
+            "image": "images/bird.jpg",
+            "msg": "Bird fly."
+        },{
+            "thumbnail": "images/duck-thumb.jpg",
+            "image": "images/duck.jpg",
+            "msg": "Duck swim."
+        },
+        {
+            "thumbnail": "images/bear-thumb.jpg",
+            "image": "images/bear.jpg",
+            "msg": "Bear hug."
+        },
+        {
+            "thumbnail": "images/dog-thumb.jpg",
+            "image": "images/dog.jpg",
+            "msg": "dog bark."
+        }
+    ]
+}
