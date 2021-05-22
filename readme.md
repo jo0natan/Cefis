@@ -10,7 +10,7 @@ Angular LTS
 
 Nignix
 
-PHP 5.6
+PHP 5.4.32
 
 Link [here](https://cefis.jntville.com.br)
                                                      
