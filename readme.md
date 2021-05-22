@@ -8,7 +8,7 @@ Laravel 4.2
 
 Angular LTS
 
-Nignix
+Nignix 1.6.2
 
 PHP 5.4.32
 
